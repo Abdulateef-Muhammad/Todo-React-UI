@@ -12,7 +12,7 @@ const App = () => {
     <>
         
       <div className="flex justify-center h-[100vh] p-2 bg-gradient-to-r from-teal-800 to-teal-600 ">
-      <Text text="A Todo React Pages" classes="text-white text-4xl p-8 basis-[300px] shrink-0 grow-0 font-bold drop-shadow-xl"/>
+      <Text text="A Todo React UIs" classes="text-white text-4xl p-8 basis-[300px] shrink-0 grow-0 font-bold drop-shadow-xl"/>
         <div className="flex w-[320px] h-[90vh] overflow-hidden bg-[#020417] rounded-xl border-2 shadow-2xl justify-self-center self-center">
           <aside
             className={`${

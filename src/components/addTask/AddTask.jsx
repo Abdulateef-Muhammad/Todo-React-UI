@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 
 const AddTask = ({closeModal}) => {
   return (
-    <section className="relative h-[90vh] p-2 flex flex-col">
+    <section className="relative md:h-[90vh] h-[100vh] p-2 flex flex-col">
       <div className="p-4 flex self-end flex-1">
         <Button
           Icon={IoMdClose}

@@ -11,9 +11,9 @@ const App = () => {
   return (
     <>
         
-      <div className="flex justify-center h-[100vh] p-2 bg-gradient-to-r from-teal-800 to-teal-600 ">
-      <Text text="A Todo React UIs" classes="text-white text-4xl p-8 basis-[300px] shrink-0 grow-0 font-bold drop-shadow-xl"/>
-        <div className="flex w-[320px] h-[90vh] overflow-hidden bg-[#020417] rounded-xl border-2 shadow-2xl justify-self-center self-center">
+      <div className="flex justify-center md:flex-row flex-col md:h-[100vh] p-2 bg-gradient-to-r from-teal-800 to-teal-600">
+      <Text text="A Todo React UIs" classes="text-white text-4xl p-8 md:basis-[300px] shrink-0 grow-0 font-bold drop-shadow-xl"/>
+        <div className="flex w-[320px] md:h-[90vh] h-[100vh] overflow-hidden bg-[#020417] rounded-xl border-2 shadow-2xl justify-self-center self-center">
           <aside
             className={`${
               !open ? "-ml-[100%] w-full" : "w-10/12"
